@@ -1,0 +1,23 @@
+# Preparing Timelines For Import And Comparison (part 2)
+
+> Davinci Resolve reference. Original prose; identifiers preserved verbatim.
+
+You have two methods available for attaching an Offline Reference Clip or Timeline to a given timeline so it can be compared. The simplest and most adaptable approach is to first open a timeline, then drag a clip or timeline whose timecode matches what you want to check against out of the Media Pool and drop it onto the Source Viewer while it is in Offline mode. To attach any clip or timeline to a chosen timeline for comparison: 1 In the Edit page, open the timeline you intend to attach to. 2 Switch the Source Viewer into Offline mode. 3 Drag the clip or timeline whose timecode matches onto the Source Viewer to assign it. Whatever you dragged is instantly attached to the open timeline as an Offline Reference Clip and kept in sync by timecode. 4 Within the Media Pool, right-click the Timeline you intend to compare against the Offline Reference Clip, then pick the reference clip or timeline you attached from that timeline’s contextual menu under the Timelines > Link Offline Reference Clip submenu. Alternatively, you may bring a clip into the Media Pool directly as an Offline Reference Clip, which makes pairing it with a specific timeline simple: right-click that timeline in the Media Pool and select it from the Link Offline Video submenu. The concept here is that whenever you or your client outputs a flattened rendering of their cut sequence alongside the EDL, AAF, or XML project file that needs grading, you are then able to check the project information loaded into DaVinci Resolve against the real video of the offline cut. To attach an imported Offline Reference Clip to a chosen timeline for comparison: 1 Go to the Media page and browse with the Media Storage browser until you locate the flattened Offline Reference Clip you wish to use for comparison. 2 Right-click that Offline Reference Clip file and pick Add as Offline Reference Clip. 3 The clip then shows up in the Media Pool carrying a tiny checkerboard badge on its icon.
+
+Checkerboard indicating an offline video 4 Switch to the Edit page, right-click the timeline you intend to compare against the Offline Reference Clip, then select the offline clip you brought in from the Timelines > Link Offline Reference Clip submenu.
+
+Selecting the offline video to link to the current Timeline.
+
+### Setting Up an Offline Reference/Timeline Comparison
+
+After you have attached a clip or timeline to serve as an Offline Reference Movie, viewing a comparison becomes straightforward.
+
+### Selecting the Offline video in the Source Viewer
+
+To look at an offline reference comparison: 1 Open the Mode pop-up menu of the Source Viewer and pick the checkerboard icon that denotes Offline Reference. The Offline Reference Clip you attached earlier will now show up inside the Offline Viewer and play back synchronized with the Timeline. When your clips carry sizing, include Fusion or other effects, or have grades, a side-by-side comparison appears showing the condition of each clip within the Offline Reference Clip next to the graded Timeline clip.
+
+The Edit page in Offline/Timeline mode
+
+2 Should the Offline Reference currently chosen drift out of sync (which you can verify by checking where a slate, two-pop, title, or other recognized shared sync marker sits at the start of the program), the sync field located at the top left of the Source Viewer in Offline mode lets you slip the reference’s sync by however many frames are required. 3 Optionally, if you wish, additional clip-comparison styles can be reached by right-clicking anywhere inside the Timeline Viewer and then selecting from among Vertical Wipe, Horizontal Wipe, Diagonal Wipe, plus Mix Wipe, Difference (a Composite mode), Box (wipe), and also Venetian Blind, or Checkerboard. Every one of these modes hands you a distinct, fast, and direct way to compare the content, sizing, color, and alignment of the Offline Reference Movie against the clips in your timeline.
+
+You will find these various comparison choices for the Offline Reference Movie versus the Timeline within the contextual menu of the Timeline Viewer. Whenever you pick a wipe or difference comparison, that comparison will additionally show up on the display attached to your video output interface, and dragging anywhere inside the Timeline Viewer adjusts the wipe’s ratio and position. 4 To switch an offline comparison viewer mode off, just right-click the Timeline Viewer once more and pick No Wipe. 5 After you finish this offline comparison, pick Source from the Mode pop-up menu of the Source Viewer, and the Source Viewer returns to viewing clips from the Media Pool, as usual.
