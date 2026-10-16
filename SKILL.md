@@ -1,33 +1,37 @@
 ---
 name: davinci-resolve
-description: Use when working in DaVinci Resolve (the Blackmagic Design editing, color, VFX, and audio app): the Media, Cut, Edit, Fusion, Color, Fairlight, and Deliver pages; importing and managing media, proxies, and the Media Pool; timelines, editing tools, trimming, transitions, retiming, and keyframing in the Inspector; color grading (primaries, curves, qualifiers, power windows, tracking, nodes, scopes, color management RCM/ACES, LUTs); Resolve FX and OpenFX; Fusion compositing and the node editor; Fairlight audio editing, mixing, and effects; rendering and export on the Deliver page; project/database management, collaboration, and Blackmagic Cloud. Covers the DaVinci Resolve 20.3 Reference Manual plus the DaVinci Resolve 21 New Features Guide. Use this when answering how to do something in Resolve, what a control/menu/parameter does, keyboard shortcuts, or which page/panel a feature lives in. Not for other NLEs (Premiere, Final Cut, Avid).
+description: "Use when working in DaVinci Resolve: Media, Cut, Edit, Fusion, Color, Fairlight, Deliver, or the Resolve 21 Photo page; media/proxies, timelines, trimming, transitions, titles, grading, RCM/ACES/LUTs, nodes, Resolve FX, audio, rendering, project libraries, Blackmagic Cloud, collaboration, immersive workflows, DCTL, or transport controls. Use for documented controls, menu paths, shortcuts, procedures, and version-specific behavior. Covers the Resolve 20.3 Reference Manual and the separate Resolve 21 New Features Guide. Not for other editing or audio applications."
+metadata:
+  last-updated: "2026-10-16"
 ---
 
-# DaVinci Resolve Reference
+# Context Router
 
-Faithful reference for DaVinci Resolve, split into one focused file per subject across 439 reference files.
-Identifiers (API/type/function names, flags, paths, enums, numbers) are preserved verbatim.
+- [Version and scope](references/reading-versioned-references.md): Open when choosing between 20.3 and 21 or checking control ownership and procedure conditions.
+- [Interface and setup](references/getting-started/INDEX.md): Open when finding interface controls, preferences, or control-panel setup.
+- [Projects and collaboration](references/projects/INDEX.md): Open when managing projects, libraries, Cloud storage, review integrations, or collaboration.
+- [Media and ingest](references/media/INDEX.md): Open when importing, organizing, synchronizing, or describing source media.
+- [Proxies and performance](references/performance/INDEX.md): Open when configuring proxies, caching, or playback performance.
+- [Color management and HDR](references/color-management/INDEX.md): Open when setting RAW decoding, working color spaces, HDR, or output transforms.
+- [Cut page](references/cut/INDEX.md): Open when assembling or trimming a program on the Cut page.
+- [Edit page](references/edit/INDEX.md): Open when building timelines, selecting tracks, trimming clips, or editing multicamera footage.
+- [Timeline effects and titles](references/timeline-effects/INDEX.md): Open when adding transitions, titles, subtitles, compositing, or speed effects.
+- [Conforming and interchange](references/conforming/INDEX.md): Open when importing or relinking an edit and checking interchange-format support.
+- [Fusion workflows](references/fusion/INDEX.md): Open when building a composite, animating nodes, tracking, painting, or working with particles.
+- [Fusion nodes and modifiers](references/fusion-nodes/INDEX.md): Open when looking up a Fusion node, input, parameter, or modifier.
+- [Color grading](references/color/INDEX.md): Open when grading shots, managing grades, using qualifiers, or building color node graphs.
+- [Resolve FX](references/resolve-fx/INDEX.md): Open when choosing or configuring a Resolve FX effect.
+- [Fairlight audio](references/fairlight/INDEX.md): Open when recording, editing, mixing, routing, or automating audio in Fairlight.
+- [Delivery and export](references/delivery/INDEX.md): Open when rendering, exporting, adding burn-in metadata, or creating delivery packages.
+- [Immersive and stereo video](references/immersive-and-stereo/INDEX.md): Open when preparing Apple Immersive or stereoscopic video.
+- [Integration and live grading](references/integration/INDEX.md): Open when writing DCTL transforms, integrating tools, controlling transport, or grading live.
+- [Menu reference](references/menus/INDEX.md): Open when finding a documented menu command.
+- [Resolve 21 new features](references/resolve-21/INDEX.md): Open when checking features from the separate Resolve 21 guide, including the Photo page.
 
-## When to use this
+# Language Translations
 
-Use this skill when the task involves DaVinci Resolve — the Media, Cut, Edit, Fusion, Color, Fairlight, and Deliver pages; importing and managing media, proxies, and the Media Pool; timelines, editing, trimming, transitions, retiming, and keyframing; color grading (primaries, curves, qualifiers, power windows, tracking, nodes, scopes, RCM/ACES, LUTs); Resolve FX and OpenFX; Fusion compositing and the node editor; Fairlight audio editing, mixing, and effects; rendering and export on the Deliver page; project/database management, collaboration, and Blackmagic Cloud.
+[Reference Language Selection](references/languages.md)
 
-## Workflow
+# Context For Open Source
 
-1. Open `references/INDEX.md` (or `references/topics.json`) and pick the one file that matches.
-2. Read only that file; open another only if the task spans subjects. Grep across files when needed: `rg -n "PATTERN" references/*.md`.
-3. Treat every identifier as an exact reference fact — never invent or paraphrase.
-
-## Gotchas
-
-Recurring failure modes and what to do instead live in the sibling [GOTCHA.md](GOTCHA.md).
-
-## References
-
-All depth lives in `references/` — start at `references/INDEX.md`, metadata in `references/topics.json`. One subject per file.
-
-## Verification
-
-```powershell
-python .agents/skills/skill-drafting/scripts/validate_skill_package.py D:/dev/SKILLS/AI/work/recon-staged/working/davinci-resolve
-```
+Skill reference documentation is interpreted content for use in open source projects. Check against [official documentation sources](https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion) when dealing with defects or issues that may come up from interpreting this skill's references.

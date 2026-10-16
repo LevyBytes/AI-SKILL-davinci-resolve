@@ -1,35 +1,53 @@
-# DaVinci Resolve Reference Skill
+# DaVinci Resolve
 
-A reference skill for **[Agent Kaizen](https://github.com/DirectorGunner/agent-kaizen)** covering the DaVinci Resolve Reference Manual (the Blackmagic Design editing, color, VFX, and audio app). The prose is original (recontextualized); identifiers — page/panel/node names, control and parameter labels, menu paths, keyboard shortcuts, enum values, numbers, and units — are preserved exactly.
-
-## What this skill covers
-
-This skill is a faithful reference for DaVinci Resolve. It covers the Media, Cut, Edit, Fusion, Color, Fairlight, and Deliver pages; importing and managing media, proxies, and the Media Pool; timelines, editing tools, trimming, transitions, retiming, and keyframing in the Inspector; color grading (primaries, curves, qualifiers, power windows, tracking, nodes, scopes, color management RCM/ACES, LUTs); Resolve FX and OpenFX; Fusion compositing and the node editor; Fairlight audio editing, mixing, and effects; rendering and export on the Deliver page; and project/database management, collaboration, and Blackmagic Cloud. It covers the DaVinci Resolve 20.3 Reference Manual plus the DaVinci Resolve 21 New Features Guide. It is a flat skill: a single `SKILL.md` plus a `references/` library of one focused topic file per subject. It is not for other NLEs (Premiere, Final Cut, Avid).
-
-## What's inside
-
-- `SKILL.md` — the trigger description, when-to-use, workflow, and routing into the references library.
-- `references/` — right-sized topic files (one subject per file) plus `INDEX.md` (start here) and `topics.json` (metadata).
-- `GOTCHA.md` — recurring failure modes and what to do instead.
-
-## Status
-
-Recontextualized into original prose (identifiers preserved); packaged in the skills store and ready to publish as the public `AI-SKILL-davinci-resolve` repository. Publication is performed by the maintainer.
-
-## Reducing idle context cost (skill invocation policy)
-
-Every installed skill costs a little context on every session: the agent sees each skill's name and description before you ever use it. If you rarely use this skill in a given project, you can keep it installed and still explicitly invocable while hiding it from the model's automatic listing.
-
-Doing so does **not** modify this skill's source repo — the policy lives in your local agent settings. The Agent Kaizen **[skill-drafting](https://github.com/DirectorGunner/AI-skill-drafting)** repo ships a manager, `scripts/skill_policy.py`, that sets this for all your skills at once:
-
-```bash
-python skill_policy.py audit     # list every skill + its current policy + idle cost
-python skill_policy.py plan      # write a decision file with recommendations (nothing applied)
-# edit that decision file: set selected_policy + approved:true for the skills you choose
-python skill_policy.py preview   # show the exact change
-python skill_policy.py apply     # apply ONLY what you approved (backup + rollback recorded)
-python skill_policy.py restore   # roll back
+```mermaid
+---
+config:
+  flowchart:
+    wrappingWidth: 400
+---
+flowchart LR
+    brand["KAIZEN<br/>SKILL LIBRARY"]:::brand
+    skill("DaVinci Resolve"):::skill
+    first(["Edit + Fusion"]):::topic
+    second(["Color + Fairlight"]):::topic
+    third(["Delivery + Workflow"]):::accent
+    brand --- skill
+    skill --- first
+    skill --- second
+    skill --- third
+    classDef brand fill:#0f172a,color:#67e8f9,stroke:#22d3ee,stroke-width:2px,font-family:monospace
+    classDef skill fill:#172554,color:#eff6ff,stroke:#60a5fa,stroke-width:2px,font-size:20px
+    classDef topic fill:#0c4a6e,color:#bae6fd,stroke:#38bdf8,stroke-width:1px
+    classDef accent fill:#1e293b,color:#fcd34d,stroke:#f59e0b,stroke-width:1px
+    linkStyle default stroke:#38bdf8,stroke-width:1px
 ```
 
-- **Claude Code (works today):** writes `skillOverrides: { "<skill>": "user-invocable-only" }` to `.claude/settings.local.json` — zero idle listing cost, still available from the `/skills` menu. Start a new session for it to take effect; invoke it any time via `/skills`.
-- **Codex (currently unreliable):** explicit-only Codex skills are affected by an open bug ([openai/codex#23454](https://github.com/openai/codex/issues/23454)) where `$skill` invocation of an explicit-only local skill can fail. Until it's fixed, leave Codex skills implicit, or fully disable rarely-used ones with `[[skills.config]] enabled = false` in `config.toml`. The manager audits Codex but does not change Codex policy.
+DaVinci Resolve reference material organized around the work of editing, compositing, grading, mixing and delivery. The package combines routes into the Resolve 20.3 manual with a separately identified Resolve 21 New Features Guide, preserving the distinction between their procedures.
+
+Use when working in DaVinci Resolve: Media, Cut, Edit, Fusion, Color, Fairlight, Deliver, or the Resolve 21 Photo page; media/proxies, timelines, trimming, transitions, titles, grading, RCM/ACES/LUTs, nodes, Resolve FX, audio, rendering, project libraries, Blackmagic Cloud, collaboration, immersive workflows, DCTL, or transport controls. Use for documented controls, menu paths, shortcuts, procedures, and version-specific behavior. Covers the Resolve 20.3 Reference Manual and the separate Resolve 21 New Features Guide. Not for other editing or audio applications.
+
+## What this skill helps with
+
+| Task | Useful reference material |
+| --- | --- |
+| [Build and refine an edit](references/edit/INDEX.md) | Locate timeline, trimming, track and multicamera workflows. |
+| [Composite and animate](references/fusion/INDEX.md) | Follow Fusion workflows, then consult the separate node and modifier references. |
+| [Grade and manage color](references/color/INDEX.md) | Find grading controls and node workflows alongside color-management and HDR guidance. |
+| [Mix and deliver](references/fairlight/INDEX.md) | Navigate Fairlight recording, editing and mixing, with linked delivery and export routes. |
+
+## The work behind the references
+
+Manual material is interpreted into page and workflow categories with descriptive topic names. Controls, shortcuts and procedure conditions remain associated with their subject, while the Resolve 21 additions have a separate reference area.
+
+## Start here
+
+Start with [SKILL.md](SKILL.md) and follow its context routes.
+
+Read [version and scope guidance](references/reading-versioned-references.md) before applying a procedure. Select the [Resolve 21 guide](references/resolve-21/INDEX.md) for its specific additions, including the Photo page, rather than assuming those features exist in 20.3.
+
+## Sources and license
+
+Skill reference documentation is interpreted content for use in open source projects. Check against [official documentation sources](https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion) when dealing with defects or issues that may come up from interpreting this skill's references.
+
+Licensed under **AGPL-3.0**; see [LICENSE](LICENSE). Part of the [Agent Kaizen](https://github.com/LevyBytes/agent-kaizen) skill library.
