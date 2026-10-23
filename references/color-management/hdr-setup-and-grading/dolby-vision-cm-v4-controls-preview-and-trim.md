@@ -15,7 +15,7 @@ Choose Dolby Vision 4.0 from the Project Settings’ Color Management panel and 
 - Mid Contrast Bias: Shapes picture contrast in the band surrounding the computed average picture level. It lets you raise or lower contrast within the image’s midtones.
 - Highlight Clipping: Cuts detail and alters the roll-off of the picture’s brighter region by clipping highlights to the degree needed. Handy when the tone mapped image surfaces unwanted detail.
 
-HDR Setup and Grading — within Setup and Workflows, under HDR Viewers
+HDR Setup and Grading: within Setup and Workflows, under HDR Viewers
 
 The Primary Trims controls sitting in the Dolby Vision palette light up only after you have authorized your system with a special license that Dolby supplies. A fourth control group lives in a second palette mode, the Secondary Trims. They too become editable only once an analysis has been run and only when you hold a Dolby license.
 
@@ -24,7 +24,7 @@ The Primary Trims controls sitting in the Dolby Vision palette light up only aft
 
 The Secondary Trims controls, viewed on a licensed Dolby Vision system Taken together, all this trimming metadata gives the colorist a way to steer how the iCMU or eCMU converts the image from the Mastering Display named in the Project Settings to the Target Display named in the Dolby Vision palette. The metadata travels across the whole ecosystem so your artistic intent holds up over a range of platforms and displays.
 
-HDR Setup and Grading — within Setup and Workflows, under HDR Viewers
+HDR Setup and Grading: within Setup and Workflows, under HDR Viewers
 
 ### Previewing and Trimming At Different Levels
 
@@ -38,7 +38,7 @@ While you work through analyzing and trimming the HDR grades shown on your Maste
 - Pick the clip to copy from, choose Copy Trim Metadata in the Dolby Vision palette option menu, then pick the clip to paste onto and choose Paste Trim Metadata from that same menu.
 - Pick the clip to paste onto, then hold the Option-Shift keys down and middle-click the clip you intend to copy from.
 
-HDR Setup and Grading — within Setup and Workflows, under HDR Viewers
+HDR Setup and Grading: within Setup and Workflows, under HDR Viewers
 
 - For Trim Metadata limited to the current Target Display, take any one of these routes: Pick the clip to copy from, choose Copy Trim Metadata in the Dolby Vision palette option menu, then pick the clip to paste onto and choose Paste Trim Metadata to Current from that same menu.
 
@@ -60,6 +60,6 @@ With the hardware in place, configuring Resolve itself to put out HDR for Dolby 
 
 That setting governs nothing more than the output EOTF (think of it as a kind of gamma transform, to borrow the wording DaVinci Resolve’s UI has employed thus far). 3 After that, pick a Timeline Color Space entry that lines up with the gamut you intend to grade in and send to output. As an illustration, if your plan is to treat the Timeline as a log-encoded signal during grading and “normalize” it yourself, ARRI Log C or Cineon Film Log are the picks (this approach comes strongly advised for top results). Should you instead prefer to save effort by letting DaVinci Resolve normalize the Timeline to P3-D65 and grade like that, you can select that option too. As for setting the output gamut, the principle is this: with “Use Separate Color Space and Gamma” switched off, the Timeline Color Space setting establishes your output gamut. Switch “Use Separate Color Space and Gamma” on and you are free to name any gamut you like in the left Output Color Space drop-down menu while picking the EOTF over in the right dropdown menu (just as step 2 spelled out).
 
-HDR Setup and Grading — within Setup and Workflows, under HDR Viewers
+HDR Setup and Grading: within Setup and Workflows, under HDR Viewers
 
 4 Note that, when output correctly, HDR ST.2084 signals take on a very “log-like” appearance so that a wide dynamic range can be squeezed into the bandwidth of an ordinary video signal. The job of “normalizing” this log-encoded picture into its proper look falls to the HDR display itself. Because of that, what shows in your Color page Viewer will look flat and log-like even while the same picture on your HDR reference display reads vivid and correct. When you are on a run-of-the-mill SDR computer display and want the Color Page Viewer image to look “normalized” at the cost of clipping the HDR highlights (only in the Viewer, never in the grade), the 3D Color Viewer Lookup Table setting — found under the Project Settings’ Color Management panel — lets you assign the right ST.2084 setting whose peak nit level matches the HDR broadcast display you are outputting toward. 5 One more thing: the “Timeline resolution” and “Pixel aspect ratio” your project uses (in the project settings) are written into the Dolby Vision metadata, so confirm your project sits at the final Timeline resolution and PAR before grading gets under way.

@@ -10,7 +10,7 @@ Version: DaVinci Resolve 20.3 Reference Manual. Context: Underlay, Fuses.
 
 ### Fuses
 
-This chapter presents Fuses — scriptable plugins you can run inside Fusion.
+This chapter presents Fuses: scriptable plugins you can run inside Fusion.
 
 ### Fuses [Fus]
 

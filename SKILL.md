@@ -1,8 +1,9 @@
 ---
 name: davinci-resolve
-description: "Use when working in DaVinci Resolve: Media, Cut, Edit, Fusion, Color, Fairlight, Deliver, or the Resolve 21 Photo page; media/proxies, timelines, trimming, transitions, titles, grading, RCM/ACES/LUTs, nodes, Resolve FX, audio, rendering, project libraries, Blackmagic Cloud, collaboration, immersive workflows, DCTL, or transport controls. Use for documented controls, menu paths, shortcuts, procedures, and version-specific behavior. Covers the Resolve 20.3 Reference Manual and the separate Resolve 21 New Features Guide. Not for other editing or audio applications."
+description: "Use when working in DaVinci Resolve: Media, Cut, Edit, Fusion, Color, Fairlight, Deliver, or the Resolve 21 Photo page; media/proxies, timelines, trimming, transitions, titles, grading, RCM/ACES/LUTs, nodes, Resolve FX, audio, rendering, project libraries, Blackmagic Cloud, collaboration, immersive workflows, DCTL or transport controls. Covers the Resolve 20.3 Reference Manual and the Resolve 21 New Features Guide. Not for other editing or audio applications."
+license: Apache-2.0
 metadata:
-  last-updated: "2026-10-16"
+  last-updated: "2026-10-22"
 ---
 
 # Context Router

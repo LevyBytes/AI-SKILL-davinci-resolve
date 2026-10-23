@@ -28,7 +28,7 @@ Every panel in the Edit page user interface can be handed focus through the Work
 
 Key Command-1 Command-2 Command-3 Command-4 Command-5 Command-6 Command-7 Command-8 Command-9 Q
 
-Function — taking each key in turn: Media Folders, then Media Clips, next the Source Viewer, after that the Timeline, followed by the Timeline Viewer, then Effects, then the Edit Index, with n/a next, the Inspector after that, and finally Q, which performs Toggle between Source and Timeline Viewers
+Function: taking each key in turn: Media Folders, then Media Clips, next the Source Viewer, after that the Timeline, followed by the Timeline Viewer, then Effects, then the Edit Index, with n/a next, the Inspector after that, and finally Q, which performs Toggle between Source and Timeline Viewers
 
 ### Showing Which Panel Has Focus
 

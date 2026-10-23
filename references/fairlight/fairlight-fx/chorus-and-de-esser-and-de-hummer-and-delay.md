@@ -46,7 +46,7 @@ The De-Esser has the following controls:
 - Bypass: Switches the plugin on and off.
 - Listen to Ess Only: With this top-right checkbox you hear nothing but the ess being
 
-stripped out — a great help in judging whether too much signal is going or whether more ess attenuation is warranted.
+stripped out: a great help in judging whether too much signal is going or whether more ess attenuation is warranted.
 
 - Frequency Range: A pair of controls homes in on the “s” frequency of a given speaker. Target Frequency: A knob that zeroes in on the frequency of the troublesome sibilance, which usually falls between 5 - 8kHz. Range: flips the De-Esser’s operating mode; reading top to bottom, the three choices are Narrow Band, Wide Band, and All High Frequency, the last of which treats every bit of audio above the source frequency.
 - Amount: Sets how much de-essing gets applied.
@@ -65,7 +65,7 @@ De-Hummer has the following controls:
 - Bypass: Turns this plugin off or back on.
 - Listen to Hum only: This top-right checkbox lets you monitor solely the hum being
 
-taken out — handy for gauging whether too much signal is leaving or whether further hum attenuation is needed.
+taken out: handy for gauging whether too much signal is leaving or whether further hum attenuation is needed.
 
 - Frequency: Targets the source’s fundamental frequency. A knob handles a free-form frequency choice, while radio buttons offer the common 50Hz/60Hz electrical-mains values that are the usual cause of hum.
 - Amount: Sets how much De-Hum extraction is applied.

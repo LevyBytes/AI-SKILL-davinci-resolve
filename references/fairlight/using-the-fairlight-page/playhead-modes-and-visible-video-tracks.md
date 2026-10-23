@@ -13,7 +13,7 @@ As described in the Timeline View Options section earlier, you’ll find setting
 In the toolbar’s Timeline View Options dropdown menu, a checkbox lets you show short-height video tracks in the Fairlight timeline as a reference. That’s quite handy, since it reveals which audio clips line up with which video clips. Those video clips can additionally serve as snapping targets when you position audio. While the Video Tracks option is active:
 
 - The Track Index lets you decide which video tracks show.
-- The video track(s) are editable — both their placement and their clip trimming.
+- The video track(s) are editable: both their placement and their clip trimming.
 - Editing an embedded clip carrying both video and audio drops a clip holding both audio and
 
 video onto the right matching tracks. Turn the Video Tracks option off, and dropping a clip with both video and audio onto the timeline places only the audio on the matching tracks.

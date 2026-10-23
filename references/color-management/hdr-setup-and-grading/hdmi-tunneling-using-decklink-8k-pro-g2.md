@@ -11,7 +11,7 @@ With HDMI Tunneling you can watch Dolby Vision content on a consumer display in 
 
 The Project settings under Video Monitoring used to switch on Dolby Vision HDMI tunneling 3 Within Project Settings > Color Management > Dolby Vision, set up these parameters: Enable Dolby Vision: tick its box. Enable Dolby Vision HDMI tunneling: tick its box too. Enable L5 metadata on HDMI: likewise tick its box.
 
-HDR Setup and Grading — within Setup and Workflows, under HDR Viewers
+HDR Setup and Grading: within Setup and Workflows, under HDR Viewers
 
 The Project settings under Dolby Vision used to switch HDMI tunneling on 4 On the Color page, inside the Dolby Vision palette, verify that Enable Tone Mapping Preview is turned off (its box left unchecked). Leave that box checked and HDMI tunneling will fail to operate.
 

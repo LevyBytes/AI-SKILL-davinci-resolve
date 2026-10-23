@@ -26,7 +26,7 @@ Handling reflection and refraction can get fiddly. Below are a few techniques to
 
 Bump mapping helps lend detail and tiny irregularities onto an object’s surface look. What bump mapping does is reshape the object’s geometry or change its silhouette.
 
-Split screen of a sphere—half with bump map, half without To lay on a bump map, you typically wire an image holding the bump information into the BumpMap node. That bump map then gets wired into the Bump input on a Material node. Two routes exist for building a 3D material’s bump map: by way of a height map and by way of a bump map.
+Split screen of a sphere: half with bump map, half without To lay on a bump map, you typically wire an image holding the bump information into the BumpMap node. That bump map then gets wired into the Bump input on a Material node. Two routes exist for building a 3D material’s bump map: by way of a height map and by way of a bump map.
 
 Image connected to a BumpMap connected to a CookTorrance material node
 

@@ -8,18 +8,18 @@ Version: DaVinci Resolve 20.3 Reference Manual. Context: Point cloud 3D, Project
 
 Each action below is paired with its shortcut key:
 
-- Delete Selected Points — Del
-- Select All — Shift+A
-- Find Points — Shift+F
-- Rename Selected Points — F2
-- Create New Point — Shift+C
-- Toggle Names on None/Selected/Published/All Points — Shift+N
-- Toggle Locations on None/Selected/Published/All Points — Shift+L
-- Publish Selected Points — Shift+P
-- Unpublish Selected Points — Shift+U
-- Create a Shape at Selected Points — Shift+S
+- Delete Selected Points: Del
+- Select All: Shift+A
+- Find Points: Shift+F
+- Rename Selected Points: F2
+- Create New Point: Shift+C
+- Toggle Names on None/Selected/Published/All Points: Shift+N
+- Toggle Locations on None/Selected/Published/All Points: Shift+L
+- Publish Selected Points: Shift+P
+- Unpublish Selected Points: Shift+U
+- Create a Shape at Selected Points: Shift+S
 - Create and Fit an ImagePlane to Selected Points — Shift+I
-- Create a Locator at Selected Points — Shift+O
+- Create a Locator at Selected Points: Shift+O
 
 ### Projector 3D [3Pj]
 

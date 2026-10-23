@@ -24,7 +24,7 @@ Histogram Type Every one of these menu choices triggers a distinct kind of color
 - Keep: Keep leaves the image untouched, with the reference histogram disregarded.
 - Equalize: Picking Equalize tweaks the source image so that every color value within it is
 
-equally represented—which amounts to leveling the histogram so the image's spread of colors grows more uniform.
+equally represented: which amounts to leveling the histogram so the image's spread of colors grows more uniform.
 
 - Match: The Match mode reshapes the source image off the reference image's histogram. Its job is making two shots whose lighting and exposure differ end up looking alike.
 

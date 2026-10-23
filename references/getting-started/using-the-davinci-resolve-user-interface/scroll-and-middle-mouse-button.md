@@ -6,7 +6,7 @@ Version: DaVinci Resolve 20.3 Reference Manual. Context: Using the DaVinci resol
 
 ### Scroll
 
-### Scroll —
+### Scroll
 
 ### Scroll
 

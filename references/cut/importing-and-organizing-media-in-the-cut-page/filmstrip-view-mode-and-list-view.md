@@ -63,7 +63,7 @@ You might, for example, assign colors by good takes, by the characters or subjec
 
 program, by media type (b-roll versus a-roll, say), or through any of a host of
 
-organizational approaches—whatever helps you stay on top of the things you need to stay on top of.
+organizational approaches: whatever helps you stay on top of the things you need to stay on top of.
 
 Changing clip colors:
 

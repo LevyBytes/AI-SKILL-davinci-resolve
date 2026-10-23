@@ -6,7 +6,7 @@ Version: DaVinci Resolve 20.3 Reference Manual. Context: Modulation, Multiband c
 
 ### Modulation
 
-This is an effect plugin — a versatile modulation tool aimed at sound effects and sound design. Its four effects bring together an LFO, FM adjustment, AM adjustment, Sweep and Gain filters so that frequency, amplitude, and spatial modulation can happen all at once. Together with the Rotation controls, you can fold straightforward Tremelo and Vibrato effects into auto-filter and auto-Pan tools to lend a sound texture and motion. As you tweak the Modulator, Frequency, and Amplitude parameters, an animated graph charts the outcome, giving you a picture of the kinds of modulation about to hit the signal. Output meters reveal the level leaving the plugin.
+This is an effect plugin: a versatile modulation tool aimed at sound effects and sound design. Its four effects bring together an LFO, FM adjustment, AM adjustment, Sweep and Gain filters so that frequency, amplitude, and spatial modulation can happen all at once. Together with the Rotation controls, you can fold straightforward Tremelo and Vibrato effects into auto-filter and auto-Pan tools to lend a sound texture and motion. As you tweak the Modulator, Frequency, and Amplitude parameters, an animated graph charts the outcome, giving you a picture of the kinds of modulation about to hit the signal. Output meters reveal the level leaving the plugin.
 
 ### The Modulation Fairlight FX
 

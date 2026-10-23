@@ -76,4 +76,4 @@ Rays is a reworked zoom blur effect that streams through an object outward from 
 
 ### Inputs
 
-The Rays node carries two inputs — an image one alongside an effects mask one. Input: The orange input handles the main 2D image that receives the rays. Effect Mask: The blue input takes a mask shape made from polylines, basic primitive shapes, paint strokes, or bitmaps out of other tools. Wiring a mask in here holds the rays to the pixels inside the mask. This effects mask is applied to the tool after the tool has been processed.
+The Rays node carries two inputs: an image one alongside an effects mask one. Input: The orange input handles the main 2D image that receives the rays. Effect Mask: The blue input takes a mask shape made from polylines, basic primitive shapes, paint strokes, or bitmaps out of other tools. Wiring a mask in here holds the rays to the pixels inside the mask. This effects mask is applied to the tool after the tool has been processed.

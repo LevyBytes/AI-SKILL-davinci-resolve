@@ -58,8 +58,8 @@ This aids Visual FX workflows three ways:
 
 frame offsets don't line up (for instance a sub clip, a differing format or round trip, or VFX connect workflows where the handles fail to match).
 
-- Rendering to specific frame ranges—when conforming to the delivery standards of commercial workflows (for instance, having compositions begin at sequence frame 1000).
-- Consistent Referenced Comp behavior—indispensable while applying a referenced composition to different clips with different trims.
+- Rendering to specific frame ranges: when conforming to the delivery standards of commercial workflows (for instance, having compositions begin at sequence frame 1000).
+- Consistent Referenced Comp behavior: indispensable while applying a referenced composition to different clips with different trims.
 - Downscale to Timeline Resolution for Timeline Clip Compositions: To lift playback performance on complex fusion projects, you can tick this box to automatically downscale all media to the timeline resolution ahead of fusion operations running. This does not work with .exr media however.
 
 ### Fairlight

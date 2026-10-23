@@ -18,7 +18,7 @@ The intent is to spread each Timeline clip’s image data, whether SDR or HDR me
 - Simple: Works well when transforming color from HDR down to SDR.
 - Luminance Mapping: Behaves like DaVinci, yet delivers greater precision whenever every clip's Input Color Space
 
-sits within one standards-based color space — for instance Rec. 709 or Rec. 2020.
+sits within one standards-based color space: for instance Rec. 709 or Rec. 2020.
 
 - DaVinci: Here the transform is tone mapped with a gentle luminance roll-off across the shadows and
 

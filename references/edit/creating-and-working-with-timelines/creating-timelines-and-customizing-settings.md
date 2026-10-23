@@ -45,7 +45,7 @@ DaVinci Resolve lets you generate a timeline that faithfully mirrors the Composi
 
 ### Duplicating Timelines
 
-Existing timelines can also be copied — useful for preserving a snapshot before you alter anything, or as the seed for an alternate version of your work. Duplicating a Timeline happens by either of these routes:
+Existing timelines can also be copied: useful for preserving a snapshot before you alter anything, or as the seed for an alternate version of your work. Duplicating a Timeline happens by either of these routes:
 
 - Highlight a timeline in the Media Pool, then choose Edit > Duplicate Timeline. The copy shows up with “copy” tacked onto its name.
 - Right-click a Media Pool timeline and pick Duplicate Timeline out of the contextual menu.

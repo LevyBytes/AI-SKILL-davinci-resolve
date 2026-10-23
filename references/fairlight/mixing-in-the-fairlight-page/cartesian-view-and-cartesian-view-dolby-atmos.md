@@ -40,7 +40,7 @@ Flyover: Sends the sound source up in a steep arc to 100U, then across from one 
 
 On: Switches the Boom output on. Pre: Sends the LFE signal pre-fader. Only: Permits the panner to emit nothing but an LFE signal off the channel. While this button stays active, the Boom level line within the channel strip Pan Indicator turns gray.
 
-### Cartesian View — Dolby Atmos
+### Cartesian View - Dolby Atmos
 
 The 3D Panner control window - Cartesian view – Dolby Atmos While you work within a Dolby Atmos workflow, the 3D Cartesian view of the Panner carries every feature listed above for the default Cartesian view, plus these additional controls placed along the top of the interface:
 

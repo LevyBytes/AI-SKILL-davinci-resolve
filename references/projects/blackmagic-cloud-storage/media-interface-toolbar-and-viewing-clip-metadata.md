@@ -15,7 +15,7 @@ can leap straight to particular enclosing folders.
 - Search: Lets you hunt down clips by their file name.
 - Sort: Lets you arrange the clips on screen by name, size, modified and created times, plus
 
-kind — running either ascending or descending.
+kind: running either ascending or descending.
 
 - List View: Shows the clips in List view.
 - Thumbnail View: Shows the clips in Thumbnail view.

@@ -12,7 +12,7 @@ For studios tackling heavier HDR mastering, DaVinci Resolve accommodates a Dolby
 
 Whether or not they hold a license, Resolve Studio users can have the image analyzed automatically and Dolby Vision analysis metadata produced. That metadata serves both to deliver Dolby Vision content and to render the other HDR and SDR deliverables out of the HDR grade you built. As a result, any DaVinci Resolve Studio user is able to turn out Dolby Vision deliverables carrying Level 1 metadata. Trimming that analysis metadata by hand, though, calls for a license from Dolby.
 
-HDR Setup and Grading — within Setup and Workflows, under HDR Viewers
+HDR Setup and Grading: within Setup and Workflows, under HDR Viewers
 
 Every Resolve Studio user can reach the commands that drive Dolby Vision auto-analysis; they sit both under the Color > Dolby Vision™ submenu and inside the Dolby Vision palette, and the list runs:
 
@@ -33,7 +33,7 @@ On top of that, an analyzed clip displays an HDR badge in the Thumbnail timeline
 
 Surfacing the DaVinci Resolve Studio Dolby Vision controls that allow manual trims atop the automatic analysis every DaVinci Resolve Studio copy performs starts with emailing dolbyvisionmastering@dolby.com for details on securing a license. After Dolby hands you a license file, bring it in via File > Dolby Vision > Load License; once it installs cleanly the Dolby Vision controls become available on the Color page. You ought to receive a display configuration file as well, loadable through the File > Dolby Vision > Load Configuration command, which fills the Dolby Vision drop-down menus with the freshest options.
 
-HDR Setup and Grading — within Setup and Workflows, under HDR Viewers
+HDR Setup and Grading: within Setup and Workflows, under HDR Viewers
 
 ### Dolby Vision® Trim Controls in DaVinci Resolve
 
@@ -50,7 +50,7 @@ All: Runs analysis on every clip in the present Timeline and keeps each result s
 
 Second come the Min, Mid, and Max metadata fields, filled in from the current clip’s analyzed values. Although you cannot edit these fields, analysis metadata may be copied and pasted between clips. The figures stand for the L1 analysis and feed the calculation of how the HDR image gets trimmed to fit the video standard the Target Display calls for. Third are the Primary Trims, editable only after an analysis has run and only when you hold a Dolby license. Exactly which controls appear comes down to the Dolby Vision version you chose in the Color Management panel of the Project Settings.
 
-HDR Setup and Grading — within Setup and Workflows, under HDR Viewers
+HDR Setup and Grading: within Setup and Workflows, under HDR Viewers
 
 ### Dolby Vision CM v2.9 Controls
 

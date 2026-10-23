@@ -73,7 +73,7 @@ differing scales according to the Value Style menu.
 
 - Show Labels: Toggles whether data point labels appear on the Legend. Those labels flag the key data
 
-points across the tonal range—black clipping, white clipping, and middle gray among them.
+points across the tonal range: black clipping, white clipping, and middle gray among them.
 
 - Contrast: Grows or shrinks the transparency of the underlay behind the Legend's background.
 - Value Detail: Grows or shrinks how many axis value labels get shown on the Legend.

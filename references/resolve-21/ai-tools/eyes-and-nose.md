@@ -65,7 +65,7 @@ UltraSharpen is built to deliver exceptionally high-quality sharpening across mo
 
 The subject in this frame is slightly out of focus
 
-The subject with UltraSharpen — see how detail climbs across the face and hair while the background is left alone. The tool couldn’t be simpler, carrying just one control. Sharpen Amount: Dial in how much sharpening lands on the image.
+The subject with UltraSharpen: see how detail climbs across the face and hair while the background is left alone. The tool couldn’t be simpler, carrying just one control. Sharpen Amount: Dial in how much sharpening lands on the image.
 
 ### AI Motion DeBlur
 

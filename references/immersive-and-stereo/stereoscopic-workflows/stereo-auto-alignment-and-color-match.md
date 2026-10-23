@@ -10,7 +10,7 @@ Version: DaVinci Resolve 20.3 Reference Manual. Context: Stereoscopic workflows.
 
 The frame used to automatically analyze and process stereo clips is selectable through the Alignment and Matching controls in the Stereo 3D palette option menu. Pick Auto Process > First or Middle, whichever suits your media best.
 
-### Auto Process—Stereo Alignment
+### Auto Process - Stereo Alignment
 
 If the stereoscopic effect is to read without giving viewers headaches, both eyes absolutely must be aligned. Adjusting this by hand is fiddly, but the software can analyze it for you automatically. You can run stereo 3D alignment on a single clip, or pick a range of clips to align them all at once. Two choices exist, and the right one depends on the kind of geometry problem you’re trying to fix.
 
@@ -19,7 +19,7 @@ If the stereoscopic effect is to read without giving viewers headaches, both eye
 
 To align one or more clips automatically: 1 In the Thumbnail timeline of the Color page, highlight one or several stereo clips. 2 Decide which frame of each clip drives the analysis: open the Stereo 3D palette, click the Option menu, and pick Auto Process > First or Auto Process > Middle. 3 Click whichever of the Stereo Alignment buttons you want. The left button handles Automatic Transform; the right button handles Automatic Vertical Skew. Should you have picked several clips, the Stereo Alignment window opens and a progress bar reports how much time is left for the job.
 
-### Auto Process—Color Matching
+### Auto Process - Color Matching
 
 Owing to differences among stereo 3D rig designs, the color and contrast of one eye’s media sometimes fails to line up precisely with the other eye. DaVinci Resolve offers two commands that match two eyes together fast and automatically.
 
