@@ -12,7 +12,7 @@ Because DaVinci Resolve began life as a professional grading application, the Co
 
 The Color page splits into seven main areas that cooperate to help you build a grade. This section runs through what those areas are and how each one works.
 
-### The default layout of the Color page
+See the [default Color page layout](https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_20.3_Reference_Manual.pdf#page=2987) for the seven interface areas.
 
 ### The Interface Toolbar
 
@@ -24,27 +24,17 @@ Timeline: Shows or hides the Mini-Timeline. Nodes: Shows or hides the Node Edito
 
 Any time you click somewhere on the DaVinci Resolve interface with the pointer, or use a keyboard shortcut to “select” a given panel (as in the Edit page), you grant that interface panel “focus.” A focused panel grabs specific keyboard shortcuts to act within itself rather than somewhere else in the interface. A highlight along the top edge tells you which panel holds focus, so you can keep tabs on which part of the current page is taking precedence, and you can move focus around as needed to get your work done. You can switch the Focus Indicator on or off under Preferences > User > UI Settings > Show focus indicators in the user interface.
 
-The focus indicator running along the Media Pool’s top edge, beside a Viewer that lacks focus
-
 ### Viewer
 
 The Viewer presents the frame at the playhead’s current spot in the Timeline. A header across the top of the Viewer shows the Project and Timeline names, plus a Viewer Timecode display that by default reports each clip’s source timecode. The Timeline name doubles as a drop-down that lets you jump to any other timeline in the project. A scrubber bar beneath the image lets you drag the playhead through the clip’s full length, while transport controls below that govern playback. A toolbar up top supplies controls for Image Wipes, Split‑Screen, and Highlight display. Further controls let you loop playback, flip Unmix mode on or off, switch audio playback on or off, and pick which onscreen controls show at the moment. There’s more on using the Viewer later in this chapter.
-
-### The default Viewer with transport controls
 
 You can also switch the Viewer into one of three alternate modes to get a larger working image. All three are reachable from the Workspace > Viewer Mode submenu.
 
 - Enhanced Viewer: (Option-F to toggle this on and off) clears away everything flanking the Viewer on both sides, handing you a roomy working area for jobs like window positioning and rotoscoping, all while leaving the palettes and their controls on view as you work.
 
-### The Color page in Enhanced Viewer mode
-
 - Full Screen Viewer: (Shift-F to toggle this on and off) is there to grant extra working area for jobs like window positioning and rotoscoping. It can also show the Effects panel at full height, and you’re free to switch the Node Editor on and off to reach different effects controls as you work.
 
-### The Color page in Full Screen Viewer mode
-
 - Cinema Viewer: (P to toggle this on and off) stretches the Viewer to fill your workstation’s whole monitor. It comes in handy when you want to play the current Timeline free of distractions. Move the pointer over the image and transport controls plus a jog bar appear so you can drive playback. For DITs, right-clicking anywhere on the image opens a contextual menu for switching on and tailoring a video scope overlay (which you can drag to various spots on the Viewer).
-
-### The Color page in Cinema Viewer mode
 
 ### Gallery
 
@@ -55,8 +45,6 @@ The Gallery has Memories, stills saved in albums and your PowerGrades
 ### LUT Browser
 
 The LUT Browser gives you one central place to browse and preview every LUT installed on your workstation. Every LUT shows up in the sidebar, grouped by category.
-
-### The LUT Browser
 
 Out of the box, every LUT shows a test thumbnail that previews its effect, yet you can also see a live preview of the current clip under a LUT by hover-scrubbing the pointer across a given LUT’s thumbnail (more on that further down). To open the LUT Browser: in the UI Toolbar at the top of the Color page, click the LUT Browser button. Methods of working with the LUT Browser:
 
